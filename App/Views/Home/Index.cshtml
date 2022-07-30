@@ -1,0 +1,62 @@
+﻿@model IEnumerable<App.Data.Models.People>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="col-8 offset-4">
+    <h1>
+        <a asp-action="Create">Създаване на запис</a>
+    </h1>
+</div>
+
+<p></p>
+
+<form method="post" class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2 col-8 offset-2" type="search" placeholder="Търсене..." aria-label="Search" name="searchQuery">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Търсене</button>
+</form>
+
+<p></p>
+<h4>|Общ брой: @Model.Count()</h4>
+<h4>|Брой платили: @Model.Count(x=>x.Sum>0)</h4>
+<h4>|Брой неплатили: @Model.Count(x => x.Sum == 0)</h4>
+<h4>|Обща сума: @Model.Sum(x=>x.Sum)</h4>
+<p></p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Цяло име:
+            </th>
+            <th>
+                Графа:
+            </th>
+            <th>
+                Сума:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sum)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Промени сумата</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"class="text-danger">Изтрий</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

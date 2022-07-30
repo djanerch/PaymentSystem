@@ -1,0 +1,42 @@
+﻿@model IEnumerable<App.Data.Models.People>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Списък с неплатилите</h1>
+
+<h1>Брой: @Model.Count()</h1>
+
+<p>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Цяло име
+            </th>
+            <th>
+                Графа
+            </th>
+            <th>
+                Сума
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sum)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

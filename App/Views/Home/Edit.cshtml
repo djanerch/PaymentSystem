@@ -1,0 +1,41 @@
+﻿@model App.Models.PeopleEditModel
+
+@{
+    ViewData["Title"] = "View";
+}
+<div class="offset-2">
+<h2>Променяне на сума</h2>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+              @Model.FullName
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                @Model.Status
+            </div>
+            <div class="form-group">
+                <label asp-for="Sum" class="control-label"></label>
+                <input asp-for="Sum" class="form-control" />
+                <span asp-validation-for="Sum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Запиши" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Обратно към началната страница</a>
+</div>
+    </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
