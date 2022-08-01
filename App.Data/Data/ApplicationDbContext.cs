@@ -1,7 +1,6 @@
 ﻿using App.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
-using App.Models;
 
 namespace App.Data
 {

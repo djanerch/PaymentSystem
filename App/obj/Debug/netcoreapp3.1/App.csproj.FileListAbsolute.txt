@@ -850,3 +850,5 @@ D:\MyApp\App\PaymentSystem\App\obj\Debug\netcoreapp3.1\App.RazorTargetAssemblyIn
 D:\MyApp\App\PaymentSystem\App\obj\Debug\netcoreapp3.1\App.Views.pdb
 D:\MyApp\App\PaymentSystem\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
 D:\MyApp\App\PaymentSystem\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\MyApp\App\PaymentSystem\App\bin\Debug\netcoreapp3.1\App.Data.dll
+D:\MyApp\App\PaymentSystem\App\bin\Debug\netcoreapp3.1\App.Data.pdb

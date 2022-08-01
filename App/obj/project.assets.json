@@ -2629,6 +2629,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "App.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.27"
+        },
+        "compile": {
+          "bin/placeholder/App.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Data.dll": {}
+        }
       }
     }
   },
@@ -8599,10 +8612,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "App.Data/1.0.0": {
+      "type": "project",
+      "path": "../App.Data/App.Data.csproj",
+      "msbuildProject": "../App.Data/App.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "App.Data >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.25",
       "Microsoft.EntityFrameworkCore >= 3.1.27",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.27",
@@ -8637,7 +8656,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyApp\\App\\PaymentSystem\\App.Data\\App.Data.csproj": {
+              "projectPath": "D:\\MyApp\\App\\PaymentSystem\\App.Data\\App.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,10 @@
+D:\MyApp\App\PaymentSystem\App.Data\bin\Debug\netcoreapp3.1\App.Data.deps.json
+D:\MyApp\App\PaymentSystem\App.Data\bin\Debug\netcoreapp3.1\App.Data.dll
+D:\MyApp\App\PaymentSystem\App.Data\bin\Debug\netcoreapp3.1\App.Data.pdb
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.csproj.AssemblyReference.cache
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.AssemblyInfoInputs.cache
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.AssemblyInfo.cs
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.csproj.CoreCompileInputs.cache
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.dll
+D:\MyApp\App\PaymentSystem\App.Data\obj\Debug\netcoreapp3.1\App.Data.pdb
