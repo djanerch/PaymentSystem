@@ -8617,11 +8617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DjanerChoban\\source\\repos\\App\\App\\App.csproj",
+      "projectUniqueName": "D:\\MyApp\\App\\PaymentSystem\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "C:\\Users\\DjanerChoban\\source\\repos\\App\\App\\App.csproj",
+      "projectPath": "D:\\MyApp\\App\\PaymentSystem\\App\\App.csproj",
       "packagesPath": "C:\\Users\\DjanerChoban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DjanerChoban\\source\\repos\\App\\App\\obj\\",
+      "outputPath": "D:\\MyApp\\App\\PaymentSystem\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DjanerChoban\\AppData\\Roaming\\NuGet\\NuGet.Config",

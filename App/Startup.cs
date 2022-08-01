@@ -27,7 +27,7 @@ namespace App
         {
             services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>(
-            options => options.UseSqlServer("Server=.;Database=PaymentSystem;Integrated Security=true;"));
+            options => options.UseSqlServer(Configuration.GetConnectionString("SqlServer")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

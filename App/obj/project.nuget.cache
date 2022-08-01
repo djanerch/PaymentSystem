@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oG+vAXNxvT08MUL0hIF3LE/VR5vAAcRGoxg58CiCikOePj7AimB74U7BwBS7iZAFuVqVASChtlDkAbijiZwFwA==",
+  "dgSpecHash": "FTH7WDMMtmhGn6YLGo/iVXKM2I25lSukA/UEcfnnmzr8O6s9B3O/A9feWUFm2gG+3EkWf3jxoBuC3ATsu/QrKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DjanerChoban\\source\\repos\\App\\App\\App.csproj",
+  "projectFilePath": "D:\\MyApp\\App\\PaymentSystem\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DjanerChoban\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\DjanerChoban\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.25\\microsoft.aspnetcore.mvc.razor.extensions.3.1.25.nupkg.sha512",
